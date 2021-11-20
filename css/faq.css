@@ -1,0 +1,39 @@
+#inner_main{
+    max-width: 1300px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    padding-bottom: 40px;
+}
+#inner_main .full_logo{
+    padding-top:50px;
+}
+#top_main{
+    /*border: 1px solid green;*/
+    margin: 40px auto 40px auto;
+    max-width: 800px;
+}
+#top_main a{
+    text-decoration: none;
+}
+#top_main a:hover{
+    font-weight: bold;
+    color: #ff9600;
+}
+#top_main h2{
+    text-align: center;
+    font-size: 60px;
+}
+#top_main p{
+    text-align: center;
+}
+#faq_info{
+    margin-left: 10px;
+}
+#faq_info h3{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#faq_info p{
+    margin-top: -15px;
+    margin-left: 10px;
+}

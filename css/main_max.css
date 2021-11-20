@@ -1,0 +1,156 @@
+/*kolor #FFB54D*/
+
+body{
+    background-color: #3c3c3c;
+    /*background-color: #2a2a2a;*/
+}
+a, p, h1{
+    color: #ff9600;
+}
+.full_logo{
+    /*border: 1px solid yellow;*/
+    padding: 20px 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.full_logo img{
+    display: block;
+    max-width: 100px;
+    margin: auto;
+}
+.full_logo h3{
+    margin-top: -10px;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: #ff9600;
+}
+.full_logo h5{
+    color: #ff9600;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+
+}
+.header{
+    background-color: #212121;
+}
+.container{
+    /*border: 1px solid green;*/
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.logo{
+    display: block;
+}
+.logo img{
+    width: 100px;
+}
+.logo a:hover img{
+    width: 105px;
+}
+.menu_list{
+    display: flex;
+}
+.menu_list li{
+    margin-left: 100px;
+}
+.menu_list a{
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+}
+.menu_list a:hover{
+    font-weight: bold;
+    color: #ff9600;
+}
+
+#footer{
+    background-color: #212121;
+}
+#footer_inner{
+    margin: 0 20px;
+    align-items: center;
+    height: 510px;
+}
+#footer_inner h3{
+    margin-top: 20px;
+    color: #ff9600;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+#footer_menu{
+    width: 150px;
+    margin: 20px auto 10px auto;
+}
+#footer_m{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#footer_menu p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#footer_menu img{
+    width: 30px;
+}
+#footer .full_logo{
+    border-bottom: 1px solid #ff9600;
+}
+#footer .full_logo img{
+    max-width: 100px;
+}
+#footer .full_logo h3{
+    margin-top: -10px;
+    font-size: 50px;
+}
+#bot_info{
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+#bot_info p{
+    font-size: 18px;
+    text-align: center;
+}
+#bot_info a{
+    color: #ff9600;
+    text-decoration: none;
+}
+#bot_info img{
+    margin-right: 10px;
+}
+#stopka{
+    border-top: 1px solid #ff9600;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: right;
+}
+.main{
+    margin: 0 auto;
+    position: relative;
+}
+#slider_inner{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    color: #ff9600;
+}
+#slider_inner h3{
+    text-align: center;
+    font-size: 50px;
+}
+#slider_inner h5{
+    text-align: center;
+}
