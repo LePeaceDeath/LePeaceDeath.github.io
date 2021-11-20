@@ -1,0 +1,26 @@
+li{
+    list-style-type: none;
+}
+#inner_main{
+    margin: auto;
+    max-width: 1300px;
+    padding-bottom: 60px;
+}
+#top_main{
+    /*border: 1px solid red;*/
+    margin: 40px auto;
+}
+#top_main h2{
+    font-size: 50px;
+    text-align: center;
+}
+.container div{
+    /*border: 1px solid red;*/
+    color: #ff9600;
+    text-align: center;
+}
+.odd div{
+    background-color: #ff9600;
+    color: #3c3c3c;
+}
+
