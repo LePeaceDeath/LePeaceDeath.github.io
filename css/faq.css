@@ -20,13 +20,13 @@
     color: #ff9600;
 }
 #top_main h2{
-    font-family: "Franklin Gothic Heavy";
+    font-family: 'Carter One', cursive;
     text-align: center;
     color: #da8000;
     font-size: 60px;
 }
 #top_main p{
-    font-family: "Franklin Gothic Heavy";
+    font-family: 'Carter One', cursive;
     text-align: center;
 }
 #faq_info{
@@ -61,14 +61,14 @@
     border-bottom: 10px solid #212121;
 }
 .question{
-    font-family: "Franklin Gothic Heavy";
+    font-family: 'Carter One', cursive;
     margin-top: 20px;
     color: #da8000;
     /*display: flex;*/
     /*vertical-align: middle;*/
 }
 .answer{
-    font-family: "Franklin Gothic Heavy";
+    font-family: 'Carter One', cursive;
     margin-top: -15px;
     margin-left: 10px;
     margin-bottom: 20px;
