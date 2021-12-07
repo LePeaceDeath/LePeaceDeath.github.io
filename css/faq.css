@@ -2,7 +2,7 @@
     max-width: 1300px;
     /*border: 1px solid red;*/
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 #inner_main .full_logo{
     padding-top:50px;
@@ -20,20 +20,58 @@
     color: #ff9600;
 }
 #top_main h2{
+    font-family: "Franklin Gothic Heavy";
     text-align: center;
+    color: #da8000;
     font-size: 60px;
 }
 #top_main p{
+    font-family: "Franklin Gothic Heavy";
     text-align: center;
 }
 #faq_info{
-    margin-left: 10px;
-}
-#faq_info h3{
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: 50px 10px;
 }
 #faq_info p{
+
+}
+.answer{
+    display: none;
+}
+.visible{
+    display: initial;
+    margin-bottom: 40px;
+}
+.question__block:hover{
+    cursor: pointer;
+    /*font-weight: bold;*/
+}
+.question__block{
+    /*display: flex;*/
+    /*vertical-align: middle;*/
+    background-color: #3c3c3c;
+    border-top: 10px solid #212121;
+    border-left: 10px solid #212121;
+    border-right: 10px solid #212121;
+    /*border: 10px solid #212121;*/
+    padding: 20px 10px;
+    /*text-align: center;*/
+}
+.q9{
+    border-bottom: 10px solid #212121;
+}
+.question{
+    font-family: "Franklin Gothic Heavy";
+    margin-top: 20px;
+    color: #da8000;
+    /*display: flex;*/
+    /*vertical-align: middle;*/
+}
+.answer{
+    font-family: "Franklin Gothic Heavy";
     margin-top: -15px;
     margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 20px;
 }
