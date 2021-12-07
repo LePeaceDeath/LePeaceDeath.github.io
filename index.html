@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/main_max.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Kaushan+Script&display=swap"
+          rel="stylesheet">
     <!--<link rel="stylesheet" href="css/main_max.css" media="screen and (min-width:1000px)">
     <link rel="stylesheet" href="css/main_min.css" media="screen and (max-width:999px)">-->
     <title>Real One</title>
@@ -25,7 +26,7 @@
             <nav class="menu">
                 <ul class="menu_list">
                     <li><a href="realone_price.html">Price</a></li>
-                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="sale.html">Discounts</a></li>
                     <li><a href="FAQ.html">FAQ</a></li>
                     <li><a href="#footer">Contact</a></li>
                 </ul>
@@ -41,21 +42,21 @@
             <li data-target="#slider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-touch="true">
                 <img class="d-block w-100" src="img/main_slider.png" alt="First slide">
                 <!--                <div class="carousel-caption d-none d-md-block">-->
                 <!--                    <h5>...</h5>-->
                 <!--                    <p>...</p>-->
                 <!--                </div>-->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-touch="true">
                 <img class="d-block w-100" src="img/fighting.jpg" alt="Second slide">
                 <!--                <div class="carousel-caption d-none d-md-block">-->
                 <!--                    <h5>...</h5>-->
                 <!--                    <p>...</p>-->
                 <!--                </div>-->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-touch="true">
                 <img class="d-block w-100" src="img/gym.jpg" alt="Third slide">
                 <!--                <div class="carousel-caption d-none d-md-block">-->
                 <!--                    <h5>...</h5>-->
@@ -89,7 +90,7 @@
         <div class="top__row">
             <div class="logo__text">
                 <img src="./img/ganteli.png">
-                <p>Lorem ipsum</p>
+                <p>Biggest crossfit area in Poland</p>
             </div>
             <div class="logo__text">
                 <img src="./img/cardio.png">
@@ -103,7 +104,7 @@
         <div class="bot__row">
             <div class="logo__text">
                 <img src="./img/diet.png">
-                <p>Huge cardio zone</p>
+                <p>Meal plan for every member</p>
             </div>
             <div class="logo__text">
                 <img src="./img/parklogo.png">
@@ -111,18 +112,19 @@
             </div>
             <div class="logo__text">
                 <img src="./img/sauna.png">
-                <p>Huge cardio zone</p>
+                <p>Sauna and jacuzzi</p>
             </div>
         </div>
     </div>
 </div>
 <div class="find__us">
-<!--    <div class="container">-->
-<!--        <h1>Our location</h1>-->
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.037273954922!2d19.90598501497558!3d50.02939737964434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165c86018c6659%3A0x80a5d4885f54d809!2sCentrum%20Dydaktyki%20Wydzia%C5%82u%20FAIS!5e0!3m2!1sru!2spl!4v1638844324713!5m2!1sru!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-<!--    </div>-->
+    <!--    <div class="container">-->
+    <!--        <h1>Our location</h1>-->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.037273954922!2d19.90598501497558!3d50.02939737964434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165c86018c6659%3A0x80a5d4885f54d809!2sCentrum%20Dydaktyki%20Wydzia%C5%82u%20FAIS!5e0!3m2!1sru!2spl!4v1638844324713!5m2!1sru!2spl"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!--    </div>-->
 </div>
 <footer id="footer">
     <div class="container">
@@ -169,7 +171,7 @@
         pause: 'hover',
         ride: 'carousel',
         wrap: true,
-        touch: true
+        // touch: true
     });
 </script>
 </body>

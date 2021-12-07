@@ -59,20 +59,26 @@ a, p, h1, h3, h5{
 .logo a:hover img{
     width: 105px;
 }
+nav{
+    width: 80%;
+}
 .menu_list{
     display: flex;
+    justify-content: space-between;
 }
 .menu_list ul{
+    display: flex;
     margin-bottom: 0;
 }
 .menu_list li{
-    margin-left: 100px;
+    /*margin-left: 100px;*/
 }
 .menu_list a{
     display: inline-block;
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
+    transition: all 0.5s;
 }
 .menu_list a:hover{
     font-weight: bold;
@@ -235,3 +241,14 @@ a, p, h1, h3, h5{
     display: flex;
     justify-content: center;
 }
+
+
+@media (max-width: 560px) {
+    nav{
+        margin-left: 10px;
+    }
+    .menu_list a{
+        font-size: 20px;
+    }
+}
+
